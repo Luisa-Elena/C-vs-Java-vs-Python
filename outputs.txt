@@ -1,0 +1,1071 @@
+
+(n) n = 1 elements
+Parallel merge sort in C results:
+	(ms-c) Execution time - dynamic: 0.000000 seconds
+	(ms-c) Execution time - static: 0.000000 seconds
+	(ms-c) Average execution time: 0.000000 seconds
+	(ms-c) Average thread creation time: 0.000040 seconds
+	(ms-c) Context switch time: 0.000170 seconds
+	(ms-c) Thread migration time: 0.000025 seconds
+
+Parallel merge sort in Python results
+	(ms-py) Execution time: 0.000001 seconds.
+	(ms-py) Average thread creation time: 0.000558 seconds.
+	(ms-py) Context switch time: 0.000601 seconds.
+
+Parallel merge sort in Java results:
+	(ms-java) Execution time: 0.000708 seconds.
+	(ms-java) Average thread creation time: 0.000193 seconds.
+	(ms-java) Context switch time: 0.000342 seconds.
+
+
+Parallel matrix multiplication in C results:
+	(mm-c) Execution time - dynamic: 0.000455 seconds
+	(mm-c) Execution time - static: 0.000127 seconds
+	(mm-c) Average execution time: 0.000291 seconds
+	(mm-c) Thread creation times:
+		 Thread 0: 0.000030500 seconds
+		 Thread 1: 0.000014200 seconds
+		 Thread 2: 0.000015100 seconds
+		 Thread 3: 0.000013400 seconds
+		 Thread 4: 0.000014700 seconds
+		 Thread 5: 0.000013800 seconds
+		 Thread 6: 0.000014200 seconds
+		 Thread 7: 0.000012500 seconds
+	(mm-c) Average thread creation time: 0.000016 seconds
+	(mm-c) Context switch time: 0.000315 seconds
+	(mm-c) Thread migration time: 0.000030 seconds
+
+
+Parallel matrix multiplication in Python results:
+	(mm-py) Execution time: 0.002071 seconds.
+	(mm-py) Thread creation times:
+		Thread 0: 0.000730 seconds
+		Thread 1: 0.000216 seconds
+		Thread 2: 0.000200 seconds
+		Thread 3: 0.000198 seconds
+		Thread 4: 0.000189 seconds
+		Thread 5: 0.000191 seconds
+		Thread 6: 0.000160 seconds
+		Thread 7: 0.000140 seconds
+	(mm-py) Average thread creation time: 0.000253 seconds
+	(mm-py) Context switch time: 0.000035 seconds
+
+
+Parallel matrix multiplication in Java results:
+	(mm-java) Execution time: 0.001953 seconds.
+	(mm-java) Thread creation times (seconds):
+		Thread 0: 0,000471400 seconds
+		Thread 1: 0,000056200 seconds
+		Thread 2: 0,000040400 seconds
+		Thread 3: 0,000031000 seconds
+		Thread 4: 0,000032500 seconds
+		Thread 5: 0,000030200 seconds
+		Thread 6: 0,000030000 seconds
+		Thread 7: 0,000033600 seconds
+	(mm-java) Average thread creation time: 0.000090662 seconds
+	(mm-java) Context switch time: 0.001224700 seconds
+
+(n) n = 8 elements
+Parallel merge sort in C results:
+	(ms-c) Execution time - dynamic: 0.000441 seconds
+	(ms-c) Execution time - static: 0.000360 seconds
+	(ms-c) Average execution time: 0.000401 seconds
+	(ms-c) Average thread creation time: 0.000022 seconds
+	(ms-c) Context switch time: 0.001417 seconds
+	(ms-c) Thread migration time: 0.000031 seconds
+
+Parallel merge sort in Python results
+	(ms-py) Execution time: 0.000911 seconds.
+	(ms-py) Average thread creation time: 0.000231 seconds.
+	(ms-py) Context switch time: 0.001886 seconds.
+
+Parallel merge sort in Java results:
+	(ms-java) Execution time: 0.001082 seconds.
+	(ms-java) Average thread creation time: 0.000061 seconds.
+	(ms-java) Context switch time: 0.001121 seconds.
+
+
+Parallel matrix multiplication in C results:
+	(mm-c) Execution time - dynamic: 0.001092 seconds
+	(mm-c) Execution time - static: 0.000145 seconds
+	(mm-c) Average execution time: 0.000619 seconds
+	(mm-c) Thread creation times:
+		 Thread 0: 0.000055600 seconds
+		 Thread 1: 0.000022900 seconds
+		 Thread 2: 0.000028900 seconds
+		 Thread 3: 0.000032600 seconds
+	(mm-c) Average thread creation time: 0.000035 seconds
+	(mm-c) Context switch time: 0.000931 seconds
+	(mm-c) Thread migration time: 0.000054 seconds
+
+
+Parallel matrix multiplication in Python results:
+	(mm-py) Execution time: 0.001167 seconds.
+	(mm-py) Thread creation times:
+		Thread 0: 0.000547 seconds
+		Thread 1: 0.000233 seconds
+		Thread 2: 0.000175 seconds
+		Thread 3: 0.000190 seconds
+	(mm-py) Average thread creation time: 0.000286 seconds
+	(mm-py) Context switch time: 0.000015 seconds
+
+
+Parallel matrix multiplication in Java results:
+	(mm-java) Execution time: 0.000839 seconds.
+	(mm-java) Thread creation times (seconds):
+		Thread 0: 0,000403800 seconds
+		Thread 1: 0,000048100 seconds
+		Thread 2: 0,000054900 seconds
+		Thread 3: 0,000039500 seconds
+	(mm-java) Average thread creation time: 0.000136575 seconds
+	(mm-java) Context switch time: 0.000289900 seconds
+
+(n) n = 14 elements
+Parallel merge sort in C results:
+	(ms-c) Execution time - dynamic: 0.001412 seconds
+	(ms-c) Execution time - static: 0.001041 seconds
+	(ms-c) Average execution time: 0.001226 seconds
+	(ms-c) Average thread creation time: 0.000026 seconds
+	(ms-c) Context switch time: 0.003115 seconds
+	(ms-c) Thread migration time: 0.000034 seconds
+
+Parallel merge sort in Python results
+	(ms-py) Execution time: 0.001540 seconds.
+	(ms-py) Average thread creation time: 0.000183 seconds.
+	(ms-py) Context switch time: 0.002612 seconds.
+
+Parallel merge sort in Java results:
+	(ms-java) Execution time: 0.001333 seconds.
+	(ms-java) Average thread creation time: 0.000064 seconds.
+	(ms-java) Context switch time: 0.001344 seconds.
+
+
+Parallel matrix multiplication in C results:
+	(mm-c) Execution time - dynamic: 0.001822 seconds
+	(mm-c) Execution time - static: 0.000269 seconds
+	(mm-c) Average execution time: 0.001046 seconds
+	(mm-c) Thread creation times:
+		 Thread 0: 0.000027500 seconds
+		 Thread 1: 0.000012900 seconds
+		 Thread 2: 0.000015500 seconds
+		 Thread 3: 0.000011700 seconds
+		 Thread 4: 0.000013200 seconds
+		 Thread 5: 0.000015800 seconds
+		 Thread 6: 0.000017700 seconds
+		 Thread 7: 0.000031600 seconds
+		 Thread 8: 0.000014300 seconds
+		 Thread 9: 0.000017600 seconds
+		 Thread 10: 0.000023300 seconds
+		 Thread 11: 0.000022600 seconds
+		 Thread 12: 0.000013300 seconds
+		 Thread 13: 0.000012500 seconds
+		 Thread 14: 0.000014200 seconds
+		 Thread 15: 0.000015600 seconds
+		 Thread 16: 0.000015100 seconds
+		 Thread 17: 0.000027300 seconds
+	(mm-c) Average thread creation time: 0.000018 seconds
+	(mm-c) Context switch time: 0.001481 seconds
+	(mm-c) Thread migration time: 0.000025 seconds
+
+
+Parallel matrix multiplication in Python results:
+	(mm-py) Execution time: 0.005872 seconds.
+	(mm-py) Thread creation times:
+		Thread 0: 0.000680 seconds
+		Thread 1: 0.000293 seconds
+		Thread 2: 0.000272 seconds
+		Thread 3: 0.000396 seconds
+		Thread 4: 0.000407 seconds
+		Thread 5: 0.000350 seconds
+		Thread 6: 0.000320 seconds
+		Thread 7: 0.000238 seconds
+		Thread 8: 0.000279 seconds
+		Thread 9: 0.000257 seconds
+		Thread 10: 0.000273 seconds
+		Thread 11: 0.000313 seconds
+		Thread 12: 0.000201 seconds
+		Thread 13: 0.000358 seconds
+		Thread 14: 0.000369 seconds
+		Thread 15: 0.000270 seconds
+		Thread 16: 0.000284 seconds
+		Thread 17: 0.000239 seconds
+	(mm-py) Average thread creation time: 0.000322 seconds
+	(mm-py) Context switch time: 0.000053 seconds
+
+
+Parallel matrix multiplication in Java results:
+	(mm-java) Execution time: 0.002012 seconds.
+	(mm-java) Thread creation times (seconds):
+		Thread 0: 0,000386400 seconds
+		Thread 1: 0,000076900 seconds
+		Thread 2: 0,000049500 seconds
+		Thread 3: 0,000070600 seconds
+		Thread 4: 0,000057100 seconds
+		Thread 5: 0,000136500 seconds
+		Thread 6: 0,000065700 seconds
+		Thread 7: 0,000059100 seconds
+		Thread 8: 0,000089700 seconds
+		Thread 9: 0,000079600 seconds
+		Thread 10: 0,000063200 seconds
+		Thread 11: 0,000046700 seconds
+		Thread 12: 0,000057500 seconds
+		Thread 13: 0,000047000 seconds
+		Thread 14: 0,000083700 seconds
+		Thread 15: 0,000106100 seconds
+		Thread 16: 0,000100000 seconds
+		Thread 17: 0,000108300 seconds
+	(mm-java) Average thread creation time: 0.000093533 seconds
+	(mm-java) Context switch time: 0.000312500 seconds
+
+(n) n = 23 elements
+Parallel merge sort in C results:
+	(ms-c) Execution time - dynamic: 0.000605 seconds
+	(ms-c) Execution time - static: 0.000565 seconds
+	(ms-c) Average execution time: 0.000585 seconds
+	(ms-c) Average thread creation time: 0.000031 seconds
+	(ms-c) Context switch time: 0.003241 seconds
+	(ms-c) Thread migration time: 0.000031 seconds
+
+Parallel merge sort in Python results
+	(ms-py) Execution time: 0.001520 seconds.
+	(ms-py) Average thread creation time: 0.000158 seconds.
+	(ms-py) Context switch time: 0.003715 seconds.
+
+Parallel merge sort in Java results:
+	(ms-java) Execution time: 0.001561 seconds.
+	(ms-java) Average thread creation time: 0.000078 seconds.
+	(ms-java) Context switch time: 0.002019 seconds.
+
+
+Parallel matrix multiplication in C results:
+	(mm-c) Execution time - dynamic: 0.001182 seconds
+	(mm-c) Execution time - static: 0.000297 seconds
+	(mm-c) Average execution time: 0.000740 seconds
+	(mm-c) Thread creation times:
+		 Thread 0: 0.000046100 seconds
+		 Thread 1: 0.000028400 seconds
+		 Thread 2: 0.000039200 seconds
+		 Thread 3: 0.000027300 seconds
+		 Thread 4: 0.000029700 seconds
+		 Thread 5: 0.000028300 seconds
+		 Thread 6: 0.000030600 seconds
+		 Thread 7: 0.000034600 seconds
+		 Thread 8: 0.000023200 seconds
+		 Thread 9: 0.000027900 seconds
+		 Thread 10: 0.000023000 seconds
+		 Thread 11: 0.000026600 seconds
+		 Thread 12: 0.000023900 seconds
+	(mm-c) Average thread creation time: 0.000030 seconds
+	(mm-c) Context switch time: 0.000768 seconds
+	(mm-c) Thread migration time: 0.000040 seconds
+
+
+Parallel matrix multiplication in Python results:
+	(mm-py) Execution time: 0.002622 seconds.
+	(mm-py) Thread creation times:
+		Thread 0: 0.000698 seconds
+		Thread 1: 0.000292 seconds
+		Thread 2: 0.000164 seconds
+		Thread 3: 0.000172 seconds
+		Thread 4: 0.000163 seconds
+		Thread 5: 0.000187 seconds
+		Thread 6: 0.000137 seconds
+		Thread 7: 0.000145 seconds
+		Thread 8: 0.000137 seconds
+		Thread 9: 0.000134 seconds
+		Thread 10: 0.000113 seconds
+		Thread 11: 0.000122 seconds
+		Thread 12: 0.000107 seconds
+	(mm-py) Average thread creation time: 0.000198 seconds
+	(mm-py) Context switch time: 0.000034 seconds
+
+
+Parallel matrix multiplication in Java results:
+	(mm-java) Execution time: 0.001466 seconds.
+	(mm-java) Thread creation times (seconds):
+		Thread 0: 0,000380400 seconds
+		Thread 1: 0,000066100 seconds
+		Thread 2: 0,000054300 seconds
+		Thread 3: 0,000048000 seconds
+		Thread 4: 0,000050100 seconds
+		Thread 5: 0,000057500 seconds
+		Thread 6: 0,000055000 seconds
+		Thread 7: 0,000043700 seconds
+		Thread 8: 0,000087500 seconds
+		Thread 9: 0,000084500 seconds
+		Thread 10: 0,000059700 seconds
+		Thread 11: 0,000046500 seconds
+		Thread 12: 0,000036300 seconds
+	(mm-java) Average thread creation time: 0.000082277 seconds
+	(mm-java) Context switch time: 0.000390300 seconds
+
+(n) n = 46 elements
+Parallel merge sort in C results:
+	(ms-c) Execution time - dynamic: 0.001145 seconds
+	(ms-c) Execution time - static: 0.001267 seconds
+	(ms-c) Average execution time: 0.001206 seconds
+	(ms-c) Average thread creation time: 0.000013 seconds
+	(ms-c) Context switch time: 0.003097 seconds
+	(ms-c) Thread migration time: 0.000031 seconds
+
+Parallel merge sort in Python results
+	(ms-py) Execution time: 0.002653 seconds.
+	(ms-py) Average thread creation time: 0.000095 seconds.
+	(ms-py) Context switch time: 0.004493 seconds.
+
+Parallel merge sort in Java results:
+	(ms-java) Execution time: 0.001943 seconds.
+	(ms-java) Average thread creation time: 0.000045 seconds.
+	(ms-java) Context switch time: 0.003851 seconds.
+
+
+Parallel matrix multiplication in C results:
+	(mm-c) Execution time - dynamic: 0.000407 seconds
+	(mm-c) Execution time - static: 0.000391 seconds
+	(mm-c) Average execution time: 0.000399 seconds
+	(mm-c) Thread creation times:
+		 Thread 0: 0.000032600 seconds
+		 Thread 1: 0.000012000 seconds
+		 Thread 2: 0.000012800 seconds
+	(mm-c) Average thread creation time: 0.000019 seconds
+	(mm-c) Context switch time: 0.000332 seconds
+	(mm-c) Thread migration time: 0.000032 seconds
+
+
+Parallel matrix multiplication in Python results:
+	(mm-py) Execution time: 0.000999 seconds.
+	(mm-py) Thread creation times:
+		Thread 0: 0.000570 seconds
+		Thread 1: 0.000197 seconds
+		Thread 2: 0.000210 seconds
+	(mm-py) Average thread creation time: 0.000326 seconds
+	(mm-py) Context switch time: 0.000015 seconds
+
+
+Parallel matrix multiplication in Java results:
+	(mm-java) Execution time: 0.000584 seconds.
+	(mm-java) Thread creation times (seconds):
+		Thread 0: 0,000305600 seconds
+		Thread 1: 0,000040600 seconds
+		Thread 2: 0,000042200 seconds
+	(mm-java) Average thread creation time: 0.000129467 seconds
+	(mm-java) Context switch time: 0.000193000 seconds
+
+(n) n = 48 elements
+Parallel merge sort in C results:
+	(ms-c) Execution time - dynamic: 0.001669 seconds
+	(ms-c) Execution time - static: 0.001638 seconds
+	(ms-c) Average execution time: 0.001653 seconds
+	(ms-c) Average thread creation time: 0.000034 seconds
+	(ms-c) Context switch time: 0.014293 seconds
+	(ms-c) Thread migration time: 0.000029 seconds
+
+Parallel merge sort in Python results
+	(ms-py) Execution time: 0.003236 seconds.
+	(ms-py) Average thread creation time: 0.000326 seconds.
+	(ms-py) Context switch time: 0.015810 seconds.
+
+Parallel merge sort in Java results:
+	(ms-java) Execution time: 0.002839 seconds.
+	(ms-java) Average thread creation time: 0.000078 seconds.
+	(ms-java) Context switch time: 0.003926 seconds.
+
+
+Parallel matrix multiplication in C results:
+	(mm-c) Execution time - dynamic: 0.000682 seconds
+	(mm-c) Execution time - static: 0.000164 seconds
+	(mm-c) Average execution time: 0.000423 seconds
+	(mm-c) Thread creation times:
+		 Thread 0: 0.000026500 seconds
+		 Thread 1: 0.000015300 seconds
+		 Thread 2: 0.000011500 seconds
+		 Thread 3: 0.000016000 seconds
+		 Thread 4: 0.000014800 seconds
+		 Thread 5: 0.000016300 seconds
+		 Thread 6: 0.000016900 seconds
+		 Thread 7: 0.000015300 seconds
+		 Thread 8: 0.000015600 seconds
+		 Thread 9: 0.000018500 seconds
+		 Thread 10: 0.000015200 seconds
+	(mm-c) Average thread creation time: 0.000017 seconds
+	(mm-c) Context switch time: 0.000487 seconds
+	(mm-c) Thread migration time: 0.000029 seconds
+
+
+Parallel matrix multiplication in Python results:
+	(mm-py) Execution time: 0.002131 seconds.
+	(mm-py) Thread creation times:
+		Thread 0: 0.000561 seconds
+		Thread 1: 0.000347 seconds
+		Thread 2: 0.000160 seconds
+		Thread 3: 0.000159 seconds
+		Thread 4: 0.000134 seconds
+		Thread 5: 0.000118 seconds
+		Thread 6: 0.000117 seconds
+		Thread 7: 0.000115 seconds
+		Thread 8: 0.000124 seconds
+		Thread 9: 0.000125 seconds
+		Thread 10: 0.000128 seconds
+	(mm-py) Average thread creation time: 0.000190 seconds
+	(mm-py) Context switch time: 0.000033 seconds
+
+
+Parallel matrix multiplication in Java results:
+	(mm-java) Execution time: 0.001759 seconds.
+	(mm-java) Thread creation times (seconds):
+		Thread 0: 0,000466600 seconds
+		Thread 1: 0,000047400 seconds
+		Thread 2: 0,000026800 seconds
+		Thread 3: 0,000023000 seconds
+		Thread 4: 0,000027700 seconds
+		Thread 5: 0,000022600 seconds
+		Thread 6: 0,000023700 seconds
+		Thread 7: 0,000023200 seconds
+		Thread 8: 0,000342900 seconds
+		Thread 9: 0,000063800 seconds
+		Thread 10: 0,000055300 seconds
+	(mm-java) Average thread creation time: 0.000102091 seconds
+	(mm-java) Context switch time: 0.000632100 seconds
+
+(n) n = 50 elements
+Parallel merge sort in C results:
+	(ms-c) Execution time - dynamic: 0.001515 seconds
+	(ms-c) Execution time - static: 0.001716 seconds
+	(ms-c) Average execution time: 0.001615 seconds
+	(ms-c) Average thread creation time: 0.000023 seconds
+	(ms-c) Context switch time: 0.008925 seconds
+	(ms-c) Thread migration time: 0.000029 seconds
+
+Parallel merge sort in Python results
+	(ms-py) Execution time: 0.004350 seconds.
+	(ms-py) Average thread creation time: 0.000167 seconds.
+	(ms-py) Context switch time: 0.008502 seconds.
+
+Parallel merge sort in Java results:
+	(ms-java) Execution time: 0.002353 seconds.
+	(ms-java) Average thread creation time: 0.000071 seconds.
+	(ms-java) Context switch time: 0.003783 seconds.
+
+
+Parallel matrix multiplication in C results:
+	(mm-c) Execution time - dynamic: 0.001205 seconds
+	(mm-c) Execution time - static: 0.000207 seconds
+	(mm-c) Average execution time: 0.000706 seconds
+	(mm-c) Thread creation times:
+		 Thread 0: 0.000052700 seconds
+		 Thread 1: 0.000027400 seconds
+		 Thread 2: 0.000020400 seconds
+		 Thread 3: 0.000021700 seconds
+		 Thread 4: 0.000021200 seconds
+		 Thread 5: 0.000021400 seconds
+		 Thread 6: 0.000019000 seconds
+		 Thread 7: 0.000021800 seconds
+	(mm-c) Average thread creation time: 0.000026 seconds
+	(mm-c) Context switch time: 0.000976 seconds
+	(mm-c) Thread migration time: 0.000044 seconds
+
+
+Parallel matrix multiplication in Python results:
+	(mm-py) Execution time: 0.002024 seconds.
+	(mm-py) Thread creation times:
+		Thread 0: 0.000628 seconds
+		Thread 1: 0.000160 seconds
+		Thread 2: 0.000198 seconds
+		Thread 3: 0.000153 seconds
+		Thread 4: 0.000210 seconds
+		Thread 5: 0.000212 seconds
+		Thread 6: 0.000211 seconds
+		Thread 7: 0.000213 seconds
+	(mm-py) Average thread creation time: 0.000248 seconds
+	(mm-py) Context switch time: 0.000033 seconds
+
+
+Parallel matrix multiplication in Java results:
+	(mm-java) Execution time: 0.000887 seconds.
+	(mm-java) Thread creation times (seconds):
+		Thread 0: 0,000253300 seconds
+		Thread 1: 0,000040400 seconds
+		Thread 2: 0,000042600 seconds
+		Thread 3: 0,000038900 seconds
+		Thread 4: 0,000039300 seconds
+		Thread 5: 0,000049800 seconds
+		Thread 6: 0,000063700 seconds
+		Thread 7: 0,000043400 seconds
+	(mm-java) Average thread creation time: 0.000071425 seconds
+	(mm-java) Context switch time: 0.000311700 seconds
+
+(n) n = 59 elements
+Parallel merge sort in C results:
+	(ms-c) Execution time - dynamic: 0.001774 seconds
+	(ms-c) Execution time - static: 0.002072 seconds
+	(ms-c) Average execution time: 0.001923 seconds
+	(ms-c) Average thread creation time: 0.000016 seconds
+	(ms-c) Context switch time: 0.005641 seconds
+	(ms-c) Thread migration time: 0.000026 seconds
+
+Parallel merge sort in Python results
+	(ms-py) Execution time: 0.004622 seconds.
+	(ms-py) Average thread creation time: 0.000097 seconds.
+	(ms-py) Context switch time: 0.005871 seconds.
+
+Parallel merge sort in Java results:
+	(ms-java) Execution time: 0.003038 seconds.
+	(ms-java) Average thread creation time: 0.000046 seconds.
+	(ms-java) Context switch time: 0.004412 seconds.
+
+
+Parallel matrix multiplication in C results:
+	(mm-c) Execution time - dynamic: 0.001373 seconds
+	(mm-c) Execution time - static: 0.000400 seconds
+	(mm-c) Average execution time: 0.000887 seconds
+	(mm-c) Thread creation times:
+		 Thread 0: 0.000053900 seconds
+		 Thread 1: 0.000025600 seconds
+		 Thread 2: 0.000027500 seconds
+		 Thread 3: 0.000029100 seconds
+		 Thread 4: 0.000040500 seconds
+		 Thread 5: 0.000027500 seconds
+		 Thread 6: 0.000030900 seconds
+		 Thread 7: 0.000026700 seconds
+		 Thread 8: 0.000034000 seconds
+		 Thread 9: 0.000030400 seconds
+		 Thread 10: 0.000032700 seconds
+		 Thread 11: 0.000030500 seconds
+		 Thread 12: 0.000029500 seconds
+	(mm-c) Average thread creation time: 0.000032 seconds
+	(mm-c) Context switch time: 0.000926 seconds
+	(mm-c) Thread migration time: 0.000039 seconds
+
+
+Parallel matrix multiplication in Python results:
+	(mm-py) Execution time: 0.002424 seconds.
+	(mm-py) Thread creation times:
+		Thread 0: 0.000735 seconds
+		Thread 1: 0.000170 seconds
+		Thread 2: 0.000144 seconds
+		Thread 3: 0.000163 seconds
+		Thread 4: 0.000132 seconds
+		Thread 5: 0.000138 seconds
+		Thread 6: 0.000130 seconds
+		Thread 7: 0.000155 seconds
+		Thread 8: 0.000112 seconds
+		Thread 9: 0.000121 seconds
+		Thread 10: 0.000106 seconds
+		Thread 11: 0.000131 seconds
+		Thread 12: 0.000115 seconds
+	(mm-py) Average thread creation time: 0.000181 seconds
+	(mm-py) Context switch time: 0.000053 seconds
+
+
+Parallel matrix multiplication in Java results:
+	(mm-java) Execution time: 0.001462 seconds.
+	(mm-java) Thread creation times (seconds):
+		Thread 0: 0,000407400 seconds
+		Thread 1: 0,000047200 seconds
+		Thread 2: 0,000040600 seconds
+		Thread 3: 0,000033500 seconds
+		Thread 4: 0,000032500 seconds
+		Thread 5: 0,000031400 seconds
+		Thread 6: 0,000034200 seconds
+		Thread 7: 0,000057500 seconds
+		Thread 8: 0,000043800 seconds
+		Thread 9: 0,000113300 seconds
+		Thread 10: 0,000071700 seconds
+		Thread 11: 0,000041400 seconds
+		Thread 12: 0,000040600 seconds
+	(mm-java) Average thread creation time: 0.000076546 seconds
+	(mm-java) Context switch time: 0.000461800 seconds
+
+(n) n = 64 elements
+Parallel merge sort in C results:
+	(ms-c) Execution time - dynamic: 0.004520 seconds
+	(ms-c) Execution time - static: 0.004894 seconds
+	(ms-c) Average execution time: 0.004707 seconds
+	(ms-c) Average thread creation time: 0.000015 seconds
+	(ms-c) Context switch time: 0.006302 seconds
+	(ms-c) Thread migration time: 0.000028 seconds
+
+Parallel merge sort in Python results
+	(ms-py) Execution time: 0.005396 seconds.
+	(ms-py) Average thread creation time: 0.000100 seconds.
+	(ms-py) Context switch time: 0.006507 seconds.
+
+Parallel merge sort in Java results:
+	(ms-java) Execution time: 0.002944 seconds.
+	(ms-java) Average thread creation time: 0.000059 seconds.
+	(ms-java) Context switch time: 0.003994 seconds.
+
+
+Parallel matrix multiplication in C results:
+	(mm-c) Execution time - dynamic: 0.001063 seconds
+	(mm-c) Execution time - static: 0.000266 seconds
+	(mm-c) Average execution time: 0.000665 seconds
+	(mm-c) Thread creation times:
+		 Thread 0: 0.000031900 seconds
+		 Thread 1: 0.000015100 seconds
+		 Thread 2: 0.000014400 seconds
+		 Thread 3: 0.000015300 seconds
+		 Thread 4: 0.000014500 seconds
+		 Thread 5: 0.000014000 seconds
+		 Thread 6: 0.000014600 seconds
+		 Thread 7: 0.000012300 seconds
+		 Thread 8: 0.000020400 seconds
+		 Thread 9: 0.000015300 seconds
+		 Thread 10: 0.000014700 seconds
+		 Thread 11: 0.000013500 seconds
+		 Thread 12: 0.000017400 seconds
+		 Thread 13: 0.000012500 seconds
+		 Thread 14: 0.000014000 seconds
+		 Thread 15: 0.000013000 seconds
+		 Thread 16: 0.000048800 seconds
+		 Thread 17: 0.000015500 seconds
+	(mm-c) Average thread creation time: 0.000018 seconds
+	(mm-c) Context switch time: 0.000727 seconds
+	(mm-c) Thread migration time: 0.000028 seconds
+
+
+Parallel matrix multiplication in Python results:
+	(mm-py) Execution time: 0.003098 seconds.
+	(mm-py) Thread creation times:
+		Thread 0: 0.000540 seconds
+		Thread 1: 0.000202 seconds
+		Thread 2: 0.000184 seconds
+		Thread 3: 0.000188 seconds
+		Thread 4: 0.000168 seconds
+		Thread 5: 0.000226 seconds
+		Thread 6: 0.000148 seconds
+		Thread 7: 0.000121 seconds
+		Thread 8: 0.000216 seconds
+		Thread 9: 0.000129 seconds
+		Thread 10: 0.000124 seconds
+		Thread 11: 0.000121 seconds
+		Thread 12: 0.000118 seconds
+		Thread 13: 0.000118 seconds
+		Thread 14: 0.000119 seconds
+		Thread 15: 0.000120 seconds
+		Thread 16: 0.000104 seconds
+		Thread 17: 0.000099 seconds
+	(mm-py) Average thread creation time: 0.000169 seconds
+	(mm-py) Context switch time: 0.000040 seconds
+
+
+Parallel matrix multiplication in Java results:
+	(mm-java) Execution time: 0.002392 seconds.
+	(mm-java) Thread creation times (seconds):
+		Thread 0: 0,000323100 seconds
+		Thread 1: 0,000054700 seconds
+		Thread 2: 0,000039000 seconds
+		Thread 3: 0,000036600 seconds
+		Thread 4: 0,000034300 seconds
+		Thread 5: 0,000030800 seconds
+		Thread 6: 0,000029400 seconds
+		Thread 7: 0,000037200 seconds
+		Thread 8: 0,000030700 seconds
+		Thread 9: 0,000037100 seconds
+		Thread 10: 0,000031800 seconds
+		Thread 11: 0,000106700 seconds
+		Thread 12: 0,000079600 seconds
+		Thread 13: 0,000057000 seconds
+		Thread 14: 0,000209900 seconds
+		Thread 15: 0,000074200 seconds
+		Thread 16: 0,000036000 seconds
+		Thread 17: 0,000030900 seconds
+	(mm-java) Average thread creation time: 0.000071056 seconds
+	(mm-java) Context switch time: 0.001106900 seconds
+
+(n) n = 71 elements
+Parallel merge sort in C results:
+	(ms-c) Execution time - dynamic: 0.003657 seconds
+	(ms-c) Execution time - static: 0.002311 seconds
+	(ms-c) Average execution time: 0.002984 seconds
+	(ms-c) Average thread creation time: 0.000017 seconds
+	(ms-c) Context switch time: 0.006868 seconds
+	(ms-c) Thread migration time: 0.000028 seconds
+
+Parallel merge sort in Python results
+	(ms-py) Execution time: 0.005380 seconds.
+	(ms-py) Average thread creation time: 0.000263 seconds.
+	(ms-py) Context switch time: 0.018926 seconds.
+
+Parallel merge sort in Java results:
+	(ms-java) Execution time: 0.003298 seconds.
+	(ms-java) Average thread creation time: 0.000060 seconds.
+	(ms-java) Context switch time: 0.005019 seconds.
+
+
+Parallel matrix multiplication in C results:
+	(mm-c) Execution time - dynamic: 0.000386 seconds
+	(mm-c) Execution time - static: 0.000104 seconds
+	(mm-c) Average execution time: 0.000245 seconds
+	(mm-c) Thread creation times:
+		 Thread 0: 0.000024500 seconds
+		 Thread 1: 0.000016500 seconds
+		 Thread 2: 0.000013900 seconds
+		 Thread 3: 0.000016400 seconds
+		 Thread 4: 0.000018600 seconds
+	(mm-c) Average thread creation time: 0.000018 seconds
+	(mm-c) Context switch time: 0.000286 seconds
+	(mm-c) Thread migration time: 0.000033 seconds
+
+
+Parallel matrix multiplication in Python results:
+	(mm-py) Execution time: 0.001337 seconds.
+	(mm-py) Thread creation times:
+		Thread 0: 0.000562 seconds
+		Thread 1: 0.000204 seconds
+		Thread 2: 0.000184 seconds
+		Thread 3: 0.000175 seconds
+		Thread 4: 0.000172 seconds
+	(mm-py) Average thread creation time: 0.000259 seconds
+	(mm-py) Context switch time: 0.000017 seconds
+
+
+Parallel matrix multiplication in Java results:
+	(mm-java) Execution time: 0.001016 seconds.
+	(mm-java) Thread creation times (seconds):
+		Thread 0: 0,000284500 seconds
+		Thread 1: 0,000039500 seconds
+		Thread 2: 0,000084000 seconds
+		Thread 3: 0,000067800 seconds
+		Thread 4: 0,000045200 seconds
+	(mm-java) Average thread creation time: 0.000104200 seconds
+	(mm-java) Context switch time: 0.000492200 seconds
+
+(n) n = 72 elements
+Parallel merge sort in C results:
+	(ms-c) Execution time - dynamic: 0.003485 seconds
+	(ms-c) Execution time - static: 0.002488 seconds
+	(ms-c) Average execution time: 0.002987 seconds
+	(ms-c) Average thread creation time: 0.000013 seconds
+	(ms-c) Context switch time: 0.004856 seconds
+	(ms-c) Thread migration time: 0.000032 seconds
+
+Parallel merge sort in Python results
+	(ms-py) Execution time: 0.004928 seconds.
+	(ms-py) Average thread creation time: 0.000104 seconds.
+	(ms-py) Context switch time: 0.007659 seconds.
+
+Parallel merge sort in Java results:
+	(ms-java) Execution time: 0.003075 seconds.
+	(ms-java) Average thread creation time: 0.000052 seconds.
+	(ms-java) Context switch time: 0.005692 seconds.
+
+
+Parallel matrix multiplication in C results:
+	(mm-c) Execution time - dynamic: 0.000579 seconds
+	(mm-c) Execution time - static: 0.000225 seconds
+	(mm-c) Average execution time: 0.000402 seconds
+	(mm-c) Thread creation times:
+		 Thread 0: 0.000031500 seconds
+		 Thread 1: 0.000012000 seconds
+		 Thread 2: 0.000014300 seconds
+		 Thread 3: 0.000016600 seconds
+		 Thread 4: 0.000022300 seconds
+		 Thread 5: 0.000016500 seconds
+		 Thread 6: 0.000018900 seconds
+		 Thread 7: 0.000018400 seconds
+		 Thread 8: 0.000020900 seconds
+	(mm-c) Average thread creation time: 0.000019 seconds
+	(mm-c) Context switch time: 0.000393 seconds
+	(mm-c) Thread migration time: 0.000027 seconds
+
+
+Parallel matrix multiplication in Python results:
+	(mm-py) Execution time: 0.001789 seconds.
+	(mm-py) Thread creation times:
+		Thread 0: 0.000592 seconds
+		Thread 1: 0.000189 seconds
+		Thread 2: 0.000155 seconds
+		Thread 3: 0.000192 seconds
+		Thread 4: 0.000147 seconds
+		Thread 5: 0.000118 seconds
+		Thread 6: 0.000118 seconds
+		Thread 7: 0.000115 seconds
+		Thread 8: 0.000124 seconds
+	(mm-py) Average thread creation time: 0.000194 seconds
+	(mm-py) Context switch time: 0.000028 seconds
+
+
+Parallel matrix multiplication in Java results:
+	(mm-java) Execution time: 0.001187 seconds.
+	(mm-java) Thread creation times (seconds):
+		Thread 0: 0,000390900 seconds
+		Thread 1: 0,000042800 seconds
+		Thread 2: 0,000035200 seconds
+		Thread 3: 0,000030100 seconds
+		Thread 4: 0,000038400 seconds
+		Thread 5: 0,000038400 seconds
+		Thread 6: 0,000034000 seconds
+		Thread 7: 0,000034000 seconds
+		Thread 8: 0,000035800 seconds
+	(mm-java) Average thread creation time: 0.000075511 seconds
+	(mm-java) Context switch time: 0.000503400 seconds
+
+(n) n = 77 elements
+Parallel merge sort in C results:
+	(ms-c) Execution time - dynamic: 0.001671 seconds
+	(ms-c) Execution time - static: 0.001783 seconds
+	(ms-c) Average execution time: 0.001727 seconds
+	(ms-c) Average thread creation time: 0.000019 seconds
+	(ms-c) Context switch time: 0.007785 seconds
+	(ms-c) Thread migration time: 0.000033 seconds
+
+Parallel merge sort in Python results
+	(ms-py) Execution time: 0.003923 seconds.
+	(ms-py) Average thread creation time: 0.000107 seconds.
+	(ms-py) Context switch time: 0.008458 seconds.
+
+Parallel merge sort in Java results:
+	(ms-java) Execution time: 0.003181 seconds.
+	(ms-java) Average thread creation time: 0.000061 seconds.
+	(ms-java) Context switch time: 0.005392 seconds.
+
+
+Parallel matrix multiplication in C results:
+	(mm-c) Execution time - dynamic: 0.000442 seconds
+	(mm-c) Execution time - static: 0.000123 seconds
+	(mm-c) Average execution time: 0.000282 seconds
+	(mm-c) Thread creation times:
+		 Thread 0: 0.000023200 seconds
+		 Thread 1: 0.000015800 seconds
+		 Thread 2: 0.000013100 seconds
+		 Thread 3: 0.000018100 seconds
+		 Thread 4: 0.000016300 seconds
+		 Thread 5: 0.000015100 seconds
+		 Thread 6: 0.000013400 seconds
+		 Thread 7: 0.000015800 seconds
+	(mm-c) Average thread creation time: 0.000016 seconds
+	(mm-c) Context switch time: 0.000299 seconds
+	(mm-c) Thread migration time: 0.000031 seconds
+
+
+Parallel matrix multiplication in Python results:
+	(mm-py) Execution time: 0.001604 seconds.
+	(mm-py) Thread creation times:
+		Thread 0: 0.000557 seconds
+		Thread 1: 0.000225 seconds
+		Thread 2: 0.000157 seconds
+		Thread 3: 0.000145 seconds
+		Thread 4: 0.000127 seconds
+		Thread 5: 0.000114 seconds
+		Thread 6: 0.000110 seconds
+		Thread 7: 0.000128 seconds
+	(mm-py) Average thread creation time: 0.000195 seconds
+	(mm-py) Context switch time: 0.000034 seconds
+
+
+Parallel matrix multiplication in Java results:
+	(mm-java) Execution time: 0.001033 seconds.
+	(mm-java) Thread creation times (seconds):
+		Thread 0: 0,000302700 seconds
+		Thread 1: 0,000041000 seconds
+		Thread 2: 0,000034500 seconds
+		Thread 3: 0,000028400 seconds
+		Thread 4: 0,000023900 seconds
+		Thread 5: 0,000032600 seconds
+		Thread 6: 0,000022400 seconds
+		Thread 7: 0,000023800 seconds
+	(mm-java) Average thread creation time: 0.000063663 seconds
+	(mm-java) Context switch time: 0.000520800 seconds
+
+(n) n = 84 elements
+Parallel merge sort in C results:
+	(ms-c) Execution time - dynamic: 0.001944 seconds
+	(ms-c) Execution time - static: 0.001952 seconds
+	(ms-c) Average execution time: 0.001948 seconds
+	(ms-c) Average thread creation time: 0.000020 seconds
+	(ms-c) Context switch time: 0.008249 seconds
+	(ms-c) Thread migration time: 0.000030 seconds
+
+Parallel merge sort in Python results
+	(ms-py) Execution time: 0.005455 seconds.
+	(ms-py) Average thread creation time: 0.000188 seconds.
+	(ms-py) Context switch time: 0.016022 seconds.
+
+Parallel merge sort in Java results:
+	(ms-java) Execution time: 0.003406 seconds.
+	(ms-java) Average thread creation time: 0.000066 seconds.
+	(ms-java) Context switch time: 0.005762 seconds.
+
+
+Parallel matrix multiplication in C results:
+	(mm-c) Execution time - dynamic: 0.000262 seconds
+	(mm-c) Execution time - static: 0.000049 seconds
+	(mm-c) Average execution time: 0.000155 seconds
+	(mm-c) Thread creation times:
+		 Thread 0: 0.000032700 seconds
+		 Thread 1: 0.000019300 seconds
+	(mm-c) Average thread creation time: 0.000026 seconds
+	(mm-c) Context switch time: 0.000201 seconds
+	(mm-c) Thread migration time: 0.000036 seconds
+
+
+Parallel matrix multiplication in Python results:
+	(mm-py) Execution time: 0.000831 seconds.
+	(mm-py) Thread creation times:
+		Thread 0: 0.000622 seconds
+		Thread 1: 0.000192 seconds
+	(mm-py) Average thread creation time: 0.000407 seconds
+	(mm-py) Context switch time: 0.000013 seconds
+
+
+Parallel matrix multiplication in Java results:
+	(mm-java) Execution time: 0.000491 seconds.
+	(mm-java) Thread creation times (seconds):
+		Thread 0: 0,000255100 seconds
+		Thread 1: 0,000040500 seconds
+	(mm-java) Average thread creation time: 0.000147800 seconds
+	(mm-java) Context switch time: 0.000193600 seconds
+
+(n) n = 98 elements
+Parallel merge sort in C results:
+	(ms-c) Execution time - dynamic: 0.003371 seconds
+	(ms-c) Execution time - static: 0.003111 seconds
+	(ms-c) Average execution time: 0.003241 seconds
+	(ms-c) Average thread creation time: 0.000016 seconds
+	(ms-c) Context switch time: 0.007784 seconds
+	(ms-c) Thread migration time: 0.000027 seconds
+
+Parallel merge sort in Python results
+	(ms-py) Execution time: 0.004959 seconds.
+	(ms-py) Average thread creation time: 0.000171 seconds.
+	(ms-py) Context switch time: 0.017058 seconds.
+
+Parallel merge sort in Java results:
+	(ms-java) Execution time: 0.003540 seconds.
+	(ms-java) Average thread creation time: 0.000067 seconds.
+	(ms-java) Context switch time: 0.007890 seconds.
+
+
+Parallel matrix multiplication in C results:
+	(mm-c) Execution time - dynamic: 0.000705 seconds
+	(mm-c) Execution time - static: 0.000203 seconds
+	(mm-c) Average execution time: 0.000454 seconds
+	(mm-c) Thread creation times:
+		 Thread 0: 0.000028200 seconds
+		 Thread 1: 0.000015300 seconds
+		 Thread 2: 0.000015000 seconds
+		 Thread 3: 0.000015700 seconds
+		 Thread 4: 0.000018900 seconds
+		 Thread 5: 0.000014500 seconds
+		 Thread 6: 0.000017000 seconds
+		 Thread 7: 0.000014600 seconds
+		 Thread 8: 0.000017500 seconds
+		 Thread 9: 0.000016300 seconds
+		 Thread 10: 0.000022100 seconds
+		 Thread 11: 0.000016500 seconds
+	(mm-c) Average thread creation time: 0.000018 seconds
+	(mm-c) Context switch time: 0.000476 seconds
+	(mm-c) Thread migration time: 0.000031 seconds
+
+
+Parallel matrix multiplication in Python results:
+	(mm-py) Execution time: 0.001890 seconds.
+	(mm-py) Thread creation times:
+		Thread 0: 0.000574 seconds
+		Thread 1: 0.000180 seconds
+		Thread 2: 0.000124 seconds
+		Thread 3: 0.000113 seconds
+		Thread 4: 0.000104 seconds
+		Thread 5: 0.000098 seconds
+		Thread 6: 0.000098 seconds
+		Thread 7: 0.000100 seconds
+		Thread 8: 0.000100 seconds
+		Thread 9: 0.000097 seconds
+		Thread 10: 0.000120 seconds
+		Thread 11: 0.000137 seconds
+	(mm-py) Average thread creation time: 0.000154 seconds
+	(mm-py) Context switch time: 0.000034 seconds
+
+
+Parallel matrix multiplication in Java results:
+	(mm-java) Execution time: 0.001212 seconds.
+	(mm-java) Thread creation times (seconds):
+		Thread 0: 0,000373300 seconds
+		Thread 1: 0,000042000 seconds
+		Thread 2: 0,000030700 seconds
+		Thread 3: 0,000046700 seconds
+		Thread 4: 0,000089600 seconds
+		Thread 5: 0,000070300 seconds
+		Thread 6: 0,000089700 seconds
+		Thread 7: 0,000054800 seconds
+		Thread 8: 0,000073700 seconds
+		Thread 9: 0,000064900 seconds
+		Thread 10: 0,000055500 seconds
+		Thread 11: 0,000038800 seconds
+	(mm-java) Average thread creation time: 0.000085833 seconds
+	(mm-java) Context switch time: 0.000175400 seconds
+
+(n) n = 100 elements
+Parallel merge sort in C results:
+	(ms-c) Execution time - dynamic: 0.002959 seconds
+	(ms-c) Execution time - static: 0.002693 seconds
+	(ms-c) Average execution time: 0.002826 seconds
+	(ms-c) Average thread creation time: 0.000016 seconds
+	(ms-c) Context switch time: 0.008915 seconds
+	(ms-c) Thread migration time: 0.000030 seconds
+
+Parallel merge sort in Python results
+	(ms-py) Execution time: 0.004683 seconds.
+	(ms-py) Average thread creation time: 0.000111 seconds.
+	(ms-py) Context switch time: 0.011327 seconds.
+
+Parallel merge sort in Java results:
+	(ms-java) Execution time: 0.003584 seconds.
+	(ms-java) Average thread creation time: 0.000071 seconds.
+	(ms-java) Context switch time: 0.007288 seconds.
+
+
+Parallel matrix multiplication in C results:
+	(mm-c) Execution time - dynamic: 0.000518 seconds
+	(mm-c) Execution time - static: 0.000188 seconds
+	(mm-c) Average execution time: 0.000353 seconds
+	(mm-c) Thread creation times:
+		 Thread 0: 0.000027100 seconds
+		 Thread 1: 0.000016000 seconds
+		 Thread 2: 0.000015000 seconds
+		 Thread 3: 0.000017900 seconds
+		 Thread 4: 0.000017400 seconds
+		 Thread 5: 0.000017000 seconds
+		 Thread 6: 0.000020300 seconds
+		 Thread 7: 0.000015200 seconds
+		 Thread 8: 0.000016600 seconds
+		 Thread 9: 0.000014400 seconds
+	(mm-c) Average thread creation time: 0.000018 seconds
+	(mm-c) Context switch time: 0.000329 seconds
+	(mm-c) Thread migration time: 0.000029 seconds
+
+
+Parallel matrix multiplication in Python results:
+	(mm-py) Execution time: 0.001742 seconds.
+	(mm-py) Thread creation times:
+		Thread 0: 0.000673 seconds
+		Thread 1: 0.000173 seconds
+		Thread 2: 0.000125 seconds
+		Thread 3: 0.000108 seconds
+		Thread 4: 0.000108 seconds
+		Thread 5: 0.000101 seconds
+		Thread 6: 0.000102 seconds
+		Thread 7: 0.000104 seconds
+		Thread 8: 0.000100 seconds
+		Thread 9: 0.000099 seconds
+	(mm-py) Average thread creation time: 0.000169 seconds
+	(mm-py) Context switch time: 0.000041 seconds
+
+
+Parallel matrix multiplication in Java results:
+	(mm-java) Execution time: 0.001101 seconds.
+	(mm-java) Thread creation times (seconds):
+		Thread 0: 0,000293800 seconds
+		Thread 1: 0,000039300 seconds
+		Thread 2: 0,000033000 seconds
+		Thread 3: 0,000033000 seconds
+		Thread 4: 0,000032900 seconds
+		Thread 5: 0,000028500 seconds
+		Thread 6: 0,000034500 seconds
+		Thread 7: 0,000041900 seconds
+		Thread 8: 0,000030500 seconds
+		Thread 9: 0,000025100 seconds
+	(mm-java) Average thread creation time: 0.000059250 seconds
+	(mm-java) Context switch time: 0.000504300 seconds
