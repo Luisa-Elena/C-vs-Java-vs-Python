@@ -1,2 +1,9 @@
 # C-vs-Java-vs-Python
-Project to analyze and compare performance metrics between different programming languages: C, Java and Python.
+Flow:  
+- MS_input_generator.py will generate input for parallel merge sort, meaning an array of n random elements between 1 and 1000, and will write it in the MS_input.txt file
+- MatrixMul_input_generator.py will generate the input for parallel matrix multiplication, meaning 2 matrices which can be multiplied and will write the result in the file MatrixMul_input.txt
+- runPrograms.py will read the inputs from the corresponding files and will run the parallel merge sort and parallel matrix multiplication algorithms on that particular input in all 3 programming languages.
+- Performance metrics, meaning execution time, thread creation time, context switch time and thread migration time for each program will be written in the output.txt file.
+- From there, the results will be written in excel with ecxelWriter.py. We also plot excel graphs based on the result to make the comparison between the 3 programming languages
+
+📄 [Read the full documentation](Documentation.pdf)
